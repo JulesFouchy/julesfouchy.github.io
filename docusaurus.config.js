@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Cool',
   tagline: 'An open-source C++ framework',
-  url: 'https://coollibs.github.io/',
-  baseUrl: '/home/',
+  url: 'https://julesfouchy.github.io/',
+  baseUrl: '/home2/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'CoolLibs',
-  projectName: 'home',
+  organizationName: 'JulesFouchy',
+  projectName: 'home2',
   plugins: ['@docusaurus/plugin-ideal-image'],
 
   presets: [
