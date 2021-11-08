@@ -1,6 +1,6 @@
-import Carousel from "framer-motion-carousel";
-import CarouselImg from './CarouselImg';
-import React from 'react';
+import Carousel from "framer-motion-carousel"
+import CarouselImg from './CarouselImg'
+import React from 'react'
 
 export default function MyCarousel({images}) {
   return (
