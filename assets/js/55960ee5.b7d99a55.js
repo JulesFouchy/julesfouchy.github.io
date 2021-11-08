@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcool_doc=self.webpackChunkcool_doc||[]).push([[121],{8070:function(c){c.exports=[]}}]);
