@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'CoolLibs',
   projectName: 'home',
+  plugins: ['@docusaurus/plugin-ideal-image'],
 
   presets: [
     [
