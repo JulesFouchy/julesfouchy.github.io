@@ -24,6 +24,14 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          sidebarItemsGenerator: async function ({
+            defaultSidebarItemsGenerator,
+            ...args
+        }) {
+            const sidebarItems = await defaultSidebarItemsGenerator(args)
+            sidebarItems.reverse()
+            return sidebarItems
+        },
         },
         blog: {
           showReadingTime: true,
@@ -47,9 +55,9 @@ const config = {
             src: 'img/favicon-32x32.png',
           },
           items: [
-            {to: '/portfolio', label: 'Portfolio', position: 'left'},
+            {to: '/docs/portfolio/cool', label: 'Portfolio', position: 'left'},
             {to: 'https://julesfouchy.github.io/Resume/', label: 'Resume', position: 'left'},
-            {to: '/docs/artworks', label: 'Artworks', position: 'left'},
+            {to: '/docs/artworks/complex-sphere', label: 'Artworks', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
             {to: '/about', label: 'About', position: 'left'},
             {
