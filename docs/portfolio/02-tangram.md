@@ -1,0 +1,23 @@
+---
+title: Tangram
+---
+
+https://github.com/JulesFouchy/Tangram2
+
+Tangram is a 2D image software mainly focused on the possibility to write your own fragment shaders (in a Shadertoy-like fashion).
+I am currently rewritting it from the ground up with an ECS architecture and more solid basis before moving on to more functionalities.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/ZU_C6q6772Y" allowfullscreen=""></iframe>
+<br/><br/>
+
+Here are of few images I made using Tangram:
+
+![Tangram](./images/tangram1.png)
+
+![Tangram](./images/tangram2.png)
+
+![Tangram](./images/tangram3.png)
+
+*Playing around with ray marching:*
+
+![Tangram](./images/tangram4.png)
