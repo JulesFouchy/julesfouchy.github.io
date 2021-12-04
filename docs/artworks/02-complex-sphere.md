@@ -1,8 +1,9 @@
 ---
 title: Complex Sphere
 ---
+import YoutubeVideo from '/src/components/YoutubeVideo';
 
-<iframe width="962" height="541" src="https://www.youtube.com/embed/mCS6Ye1YN5Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YoutubeVideo url="https://www.youtube.com/embed/mCS6Ye1YN5Y"/>
 
 *A single fragment shader ([available here](https://pastebin.com/29tUCsef)), rendered using [CoolLab](https://coollibs.github.io/home/docs/lab/)*.
 
