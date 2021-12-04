@@ -26,7 +26,7 @@ export default function Home() {
       description="">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );
