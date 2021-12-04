@@ -12,15 +12,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline} <br/>
-        Designed for image-oriented software</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/about">
-            Let's get started 🚀
-          </Link>
-        </div>
+        <p className="hero__subtitle">{siteConfig.tagline} <br/></p>
       </div>
     </header>
   );
@@ -31,7 +23,7 @@ export default function Home() {
   return (
     <Layout
       title=""
-      description="An open-source C++ framework, designed for image-oriented software.">
+      description="">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
