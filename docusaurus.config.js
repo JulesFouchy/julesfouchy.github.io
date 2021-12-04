@@ -4,6 +4,16 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const fs = require('fs')
+const path = require('path')
+const last_doc = (docs_folder) => {
+    const files = fs.readdirSync(docs_folder).filter(file_or_dir => fs.lstatSync(path.join(docs_folder, file_or_dir)).isFile() )
+    const file = files[files.length - 1]
+    const file_without_extension = file.substring(0, file.indexOf('.'))
+    const file_without_number = file_without_extension.substring(file_without_extension.indexOf('-') + 1, file_without_extension.length)
+    return docs_folder.substring(1, docs_folder.length) + file_without_number
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jules Fouchy',
@@ -55,9 +65,9 @@ const config = {
             src: 'img/favicon-32x32.png',
           },
           items: [
-            {to: '/docs/portfolio/cool', label: 'Portfolio', position: 'left'},
+            {to: last_doc("./docs/portfolio/"), label: 'Portfolio', position: 'left'},
+            {to: last_doc("./docs/artworks/"), label: 'Artworks', position: 'left'},
             {to: 'https://julesfouchy.github.io/Resume/', label: 'Resume', position: 'left'},
-            {to: '/docs/artworks/complex-sphere', label: 'Artworks', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
             {to: '/about', label: 'About', position: 'left'},
             {
