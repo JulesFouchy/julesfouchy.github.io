@@ -29,3 +29,6 @@ import Carousel from '/src/components/Carousel';
     'img/WiSp/22.png',
     'img/WiSp/23.png',
 ]}/>
+
+*Made with Blender*<br/>
+*In collaboration with Enguerrand de Smet and Aurore Lafaurie*
