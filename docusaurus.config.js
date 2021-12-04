@@ -26,11 +26,6 @@ const config = {
   organizationName: 'JulesFouchy',
   projectName: 'home2',
   plugins: ['@docusaurus/plugin-ideal-image'],
-  
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
 
   presets: [
     [
@@ -72,13 +67,9 @@ const config = {
           items: [
             {to: last_doc("./docs/portfolio/"), activeBaseRegex: "/portfolio/", label: 'Portfolio', position: 'left'},
             {to: last_doc("./docs/artworks/"), activeBaseRegex: "/artworks/", label: 'Artworks', position: 'left'},
-            {to: '/resume', label: 'Resume', position: 'left'},
+            {to: 'https://julesfouchy.github.io/Resume/', label: 'Resume', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
             {to: '/about', label: 'About', position: 'left'},
-            {
-              type: 'localeDropdown',
-              position: 'right',
-            },
             {
               href: 'https://github.com/JulesFouchy',
               position: 'right',
