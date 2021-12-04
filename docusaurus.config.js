@@ -67,7 +67,7 @@ const config = {
           items: [
             {to: last_doc("./docs/portfolio/"), activeBaseRegex: "/portfolio/", label: 'Portfolio', position: 'left'},
             {to: last_doc("./docs/artworks/"), activeBaseRegex: "/artworks/", label: 'Artworks', position: 'left'},
-            {to: 'https://julesfouchy.github.io/Resume/', label: 'Resume', position: 'left'},
+            {to: '/resume', label: 'Resume', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
             {to: '/about', label: 'About', position: 'left'},
             {
