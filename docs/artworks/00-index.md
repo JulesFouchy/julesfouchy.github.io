@@ -1,0 +1,4 @@
+---
+slug: /artworks
+title: Artworks
+---

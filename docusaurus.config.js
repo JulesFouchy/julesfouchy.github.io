@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cool',
-  tagline: 'An open-source C++ framework',
+  title: 'Jules Fouchy',
+  tagline: 'Hello 👋',
   url: 'https://julesfouchy.github.io/',
   baseUrl: '/home2/',
   onBrokenLinks: 'throw',
@@ -43,17 +43,17 @@ const config = {
         navbar: {
           title: '',
           logo: {
-            alt: 'Cool\'s Logo',
+            alt: 'My Logo',
             src: 'img/favicon-32x32.png',
           },
           items: [
-            {to: '/docs/tutorials', label: 'Tutorials', position: 'left'},
+            {to: '/portfolio', label: 'Portfolio', position: 'left'},
+            {to: 'https://julesfouchy.github.io/Resume/', label: 'Resume', position: 'left'},
+            {to: '/docs/artworks', label: 'Artworks', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
-            {to: '/docs/contributing', label: 'Contributing', position: 'left'},
-            {to: '/docs/lab', label: 'Lab', position: 'left'},
             {to: '/about', label: 'About', position: 'left'},
             {
-              href: 'https://github.com/CoolLibs/Cool',
+              href: 'https://github.com/JulesFouchy',
               position: 'right',
               className: 'header-github-link',
               'aria-label': 'GitHub repository',
@@ -102,7 +102,7 @@ const config = {
                 },
                 {
                   label: 'GitHub',
-                  to: 'https://github.com/CoolLibs/Cool',
+                  to: 'https://github.com/JulesFouchy',
                 },
               ],
             },
