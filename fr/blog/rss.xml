@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Jules Fouchy Blog</title>
+        <link>https://julesfouchy.github.io/home2/fr/blog</link>
+        <description>Jules Fouchy Blog</description>
+        <lastBuildDate>Fri, 28 May 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Int or Float?]]></title>
+            <link>https://julesfouchy.github.io/home2/fr/blog/2021/05/28/int-or-float</link>
+            <guid>Int or Float?</guid>
+            <pubDate>Fri, 28 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[After a lot of trouble and bugs, I have come to the conclusion that you sould use floats most of the time.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Unit Type-System]]></title>
+            <link>https://julesfouchy.github.io/home2/fr/blog/2021/05/28/unit-type-system</link>
+            <guid>Unit Type-System</guid>
+            <pubDate>Fri, 28 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[How often have you used an angle in radians when the function was expecting it in degrees, or vice-versa? I personnaly have, way too often. And so I decided that that time was over. We need to enforce these kind of checks in the signature of our functions and our type-system!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hijacking the Dereference Operators]]></title>
+            <link>https://julesfouchy.github.io/home2/fr/blog/2021/05/26/hijacking-the-dereference-operators</link>
+            <guid>Hijacking the Dereference Operators</guid>
+            <pubDate>Wed, 26 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I often end up writting classes that wrap other classes or primitive types.]]></description>
+        </item>
+    </channel>
+</rss>

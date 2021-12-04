@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://julesfouchy.github.io/home2/fr/blog</id>
+    <title>Jules Fouchy Blog</title>
+    <updated>2021-05-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://julesfouchy.github.io/home2/fr/blog"/>
+    <subtitle>Jules Fouchy Blog</subtitle>
+    <icon>https://julesfouchy.github.io/home2/fr/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Int or Float?]]></title>
+        <id>Int or Float?</id>
+        <link href="https://julesfouchy.github.io/home2/fr/blog/2021/05/28/int-or-float"/>
+        <updated>2021-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After a lot of trouble and bugs, I have come to the conclusion that you sould use floats most of the time.]]></summary>
+        <author>
+            <name>Jules Fouchy</name>
+            <uri>https://julesfouchy.github.io/home/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unit Type-System]]></title>
+        <id>Unit Type-System</id>
+        <link href="https://julesfouchy.github.io/home2/fr/blog/2021/05/28/unit-type-system"/>
+        <updated>2021-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How often have you used an angle in radians when the function was expecting it in degrees, or vice-versa? I personnaly have, way too often. And so I decided that that time was over. We need to enforce these kind of checks in the signature of our functions and our type-system!]]></summary>
+        <author>
+            <name>Jules Fouchy</name>
+            <uri>https://julesfouchy.github.io/home/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hijacking the Dereference Operators]]></title>
+        <id>Hijacking the Dereference Operators</id>
+        <link href="https://julesfouchy.github.io/home2/fr/blog/2021/05/26/hijacking-the-dereference-operators"/>
+        <updated>2021-05-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I often end up writting classes that wrap other classes or primitive types.]]></summary>
+        <author>
+            <name>Jules Fouchy</name>
+            <uri>https://julesfouchy.github.io/home/</uri>
+        </author>
+    </entry>
+</feed>
