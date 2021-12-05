@@ -116,12 +116,16 @@ const config = {
               title: 'More',
               items: [
                 {
-                  label: 'Blog',
-                  to: '/blog',
+                  label: 'YouTube',
+                  to: 'https://www.youtube.com/channel/UCpeT3Q6j8TAGRjW71vMZGYw',
                 },
                 {
                   label: 'GitHub',
                   to: 'https://github.com/JulesFouchy',
+                },
+                {
+                  label: 'Blog',
+                  to: '/blog',
                 },
               ],
             },
@@ -135,6 +139,7 @@ const config = {
         prism: {
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,
+          additionalLanguages: ['glsl'],
         },
       }),
 };
