@@ -19,12 +19,12 @@ const config = {
   title: 'Jules Fouchy',
   tagline: 'Hello 👋',
   url: 'https://julesfouchy.github.io/',
-  baseUrl: '/home2/',
+  baseUrl: '/home/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'JulesFouchy',
-  projectName: 'home2',
+  projectName: 'home',
   plugins: ['@docusaurus/plugin-ideal-image'],
 
   presets: [
@@ -83,15 +83,19 @@ const config = {
           style: 'dark',
           links: [
             {
-              title: 'Our projects',
+              title: 'My Classes',
               items: [
                 {
-                  label: 'CoolLab',
-                  to: 'https://github.com/CoolLibs/CoolLab',
+                  label: 'C++ and Dev Practices',
+                  to: 'https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/',
                 },
                 {
-                  label: 'CoolDemo',
-                  to: 'https://github.com/CoolLibs/Demo',
+                  label: 'Generative Art',
+                  to: 'https://julesfouchy.github.io/Learn--Generative-Art',
+                },
+                {
+                  label: 'Math for Art and Computer Graphics',
+                  to: 'https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics',
                 },
               ],
             },
@@ -100,15 +104,15 @@ const config = {
               items: [
                 {
                   label: 'Ask a question',
-                  to: 'https://github.com/CoolLibs/Cool/issues',
+                  to: 'https://github.com/JulesFouchy/home/issues',
                 },
                 {
-                  label: 'Give us feedback',
-                  to: 'https://github.com/CoolLibs/Cool/issues',
+                  label: 'Give me feedback',
+                  to: 'https://github.com/JulesFouchy/home/issues',
                 },
                 {
                   label: 'Report a mistake',
-                  to: 'https://github.com/CoolLibs/home/issues',
+                  to: 'https://github.com/JulesFouchy/home/issues',
                 },
               ],
             },
