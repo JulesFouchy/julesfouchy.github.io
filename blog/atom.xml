@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://julesfouchy.github.io/home2/blog</id>
+    <id>https://julesfouchy.github.io/home/blog</id>
     <title>Jules Fouchy Blog</title>
     <updated>2021-03-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://julesfouchy.github.io/home2/blog"/>
+    <link rel="alternate" href="https://julesfouchy.github.io/home/blog"/>
     <subtitle>Jules Fouchy Blog</subtitle>
-    <icon>https://julesfouchy.github.io/home2/img/favicon.ico</icon>
+    <icon>https://julesfouchy.github.io/home/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Golden White Noise]]></title>
         <id>Golden White Noise</id>
-        <link href="https://julesfouchy.github.io/home2/blog/2021/03/19/golden-white-noise"/>
+        <link href="https://julesfouchy.github.io/home/blog/2021/03/19/golden-white-noise"/>
         <updated>2021-03-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Every person interested in rendering through fragment shaders has already come across a function like this to generate some white noise:]]></summary>
     </entry>

@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>Jules Fouchy Blog</title>
-        <link>https://julesfouchy.github.io/home2/blog</link>
+        <link>https://julesfouchy.github.io/home/blog</link>
         <description>Jules Fouchy Blog</description>
         <lastBuildDate>Fri, 19 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Golden White Noise]]></title>
-            <link>https://julesfouchy.github.io/home2/blog/2021/03/19/golden-white-noise</link>
+            <link>https://julesfouchy.github.io/home/blog/2021/03/19/golden-white-noise</link>
             <guid>Golden White Noise</guid>
             <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Every person interested in rendering through fragment shaders has already come across a function like this to generate some white noise:]]></description>
