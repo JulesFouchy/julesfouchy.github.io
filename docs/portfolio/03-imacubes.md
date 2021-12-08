@@ -6,7 +6,6 @@ import YoutubeVideo from '/src/components/YoutubeVideo';
 https://github.com/JulesFouchy/IMACUBES/
 
 Imacubes is a voxel editor offering a few tools and procedural terrain generation, supporting custom shaders, shadows and ambient occlusion.
-It is my most recent school project.
 
 <YoutubeVideo url="https://www.youtube.com/embed/CaTNfpQdocY"/>
 <br/><br/>
