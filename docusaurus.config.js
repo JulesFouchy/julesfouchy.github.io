@@ -69,7 +69,7 @@ const config = {
             {to: last_doc("./docs/artworks/"), activeBaseRegex: "/artworks/", label: 'Artworks', position: 'left'},
             {to: '/resume', label: 'Resume', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
-            {to: last_doc("./docs/miscellaneous/"), label: 'Miscellaneous', position: 'left'},
+            {to: last_doc("./docs/miscellaneous/"), activeBaseRegex: "/miscellaneous/", label: 'Miscellaneous', position: 'left'},
             {to: '/about', label: 'About', position: 'left'},
             {
               href: 'https://github.com/JulesFouchy',
