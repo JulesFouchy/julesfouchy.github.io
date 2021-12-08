@@ -19,11 +19,9 @@ I love
  - 🤗 Making people happy
  - 💃 Dancing
 
- Check out my [GitHub](https://github.com/JulesFouchy)!
+Check out [my GitHub](https://github.com/JulesFouchy)!
 
- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=julesfouchy&show_icons=true)
-
- <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=julesfouchy&hide=fortran&langs_count=5)](https://github.com/anuraghazra/github-readme-stats) -->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=julesfouchy&show_icons=true)
 
 ## My projects
 
@@ -49,7 +47,7 @@ I love
 
 I also did a lot of work inside the [Cool organization](https://github.com/CoolLibs/)
 
-## My Templates
+## My templates
 
 I did a few template projects that can help you get started quickly:
 
