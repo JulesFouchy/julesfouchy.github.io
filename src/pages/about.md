@@ -25,6 +25,14 @@ Check out [my GitHub](https://github.com/JulesFouchy)!
 
 ## My projects
 
+<a href="https://github.com/CoolLibs/Cool">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CoolLibs&repo=Cool" />
+</a>
+
+<a href="https://github.com/CoolLibs/Lab">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CoolLibs&repo=Lab" />
+</a>
+
 <a href="https://github.com/JulesFouchy/p6">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=JulesFouchy&repo=p6" />
 </a>
