@@ -9,3 +9,8 @@ import YoutubeVideo from '/src/components/YoutubeVideo';
 
 <YoutubeVideo url = "https://www.youtube.com/embed/ks2TZxxF9tc"/>
 <br/>
+
+## Happy Hour
+
+<YoutubeVideo url = "https://www.youtube.com/embed/RnVSm-6Zb38"/>
+<br/>
