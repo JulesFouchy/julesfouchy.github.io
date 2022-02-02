@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const fetch = require("node-fetch")
 
 const fs = require('fs')
 const path = require('path')
@@ -15,7 +16,11 @@ const last_doc = (docs_folder) => {
 }
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+const config = async () => {
+    const classes = await fetch(
+        "https://raw.githubusercontent.com/JulesFouchy/JulesFouchy/main/my-classes.json"
+      ).then((res) => res.json())
+    return {
   title: 'Jules Fouchy',
   tagline: 'Hello 👋',
   url: 'https://julesfouchy.github.io/',
@@ -84,20 +89,10 @@ const config = {
           links: [
             {
               title: 'My Classes',
-              items: [
-                {
-                  label: 'C++ and Dev Practices',
-                  to: 'https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/',
-                },
-                {
-                  label: 'Generative Art',
-                  to: 'https://julesfouchy.github.io/Learn--Generative-Art',
-                },
-                {
-                  label: 'Math for Art and Computer Graphics',
-                  to: 'https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics',
-                },
-              ],
+              items: classes.map(a_class => ({
+                label: a_class.name,
+                to: a_class.url,
+            }))
             },
             {
               title: 'Raise an issue !',
@@ -146,6 +141,7 @@ const config = {
           additionalLanguages: ['glsl'],
         },
       }),
-};
+}
+}
 
 module.exports = config;
