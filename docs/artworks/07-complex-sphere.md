@@ -1,11 +1,12 @@
 ---
 title: Complex Sphere
 ---
+
 import YoutubeVideo from '/src/components/YoutubeVideo';
 
 <YoutubeVideo url="https://www.youtube.com/embed/mCS6Ye1YN5Y"/>
 
-*A single fragment shader ([available here](https://pastebin.com/29tUCsef)), rendered using [CoolLab](https://coollibs.github.io/home/docs/lab/)*.
+_A single fragment shader ([available here](https://pastebin.com/29tUCsef)), rendered using [CoolLab](https://coollibs.github.io/lab/)_.
 
 What you see here is a simple sphere, plus two rendering tricks.
 The main one is inspired by **Conformal Geometric Algebra**, an alternative way of doing geometry.
@@ -14,22 +15,22 @@ The main one is inspired by **Conformal Geometric Algebra**, an alternative way 
 
 In particular, **3D Conformal Geometric Algebra** is a 32-dimensional vector space where both points, pairs of points, directions, lines, planes, circles and spheres can be natively represented as (32-dimensional) vectors. Using the many products defined on this algebra we can express usual operations very easily.
 
-For example we can compute the two intersection points between a ray and a sphere using the so-called *outer product* between the dual representations of our objects:
+For example we can compute the two intersection points between a ray and a sphere using the so-called _outer product_ between the dual representations of our objects:
 
-```intersectionPtPair = dual(outer(dualSphere, dual(rayLine)));```
+`intersectionPtPair = dual(outer(dualSphere, dual(rayLine)));`
 
 And note that the two points are represented as a single vector! From there on we can extract the two points from the pair
 and proceed with our rendering as usual.
 
 But now comes the very interesting part: what happens if there is no actual intersection?
 
-Well, we then obtain an *imaginary* point pair (the "dot product" of the vector with itself is negative).
+Well, we then obtain an _imaginary_ point pair (the "dot product" of the vector with itself is negative).
 But it still represents a pair of points nonetheless! We could check the sign of the "dot product" and discard the negative ones
 to get a traditional sphere rendering.
-Or we could consider those *imaginary* point pairs as valid ones and still render them as if they were part of the sphere!
+Or we could consider those _imaginary_ point pairs as valid ones and still render them as if they were part of the sphere!
 
 And there you are. This is what I did to get this interesting result outside of the regular sphere, and this is why I called it
-a *complex* sphere.
+a _complex_ sphere.
 
 The second rendering trick is more mundane.
 What you see rendered is the normals of the sphere. But to make sure that negative values still appear, I take an absolute value.

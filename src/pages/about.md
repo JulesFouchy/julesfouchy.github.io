@@ -1,27 +1,30 @@
 Hi! 👋 I am a software engineer, teacher and curious mind.
 
 Currently
- - 👩‍💻 Developing [a C++ framework](https://coollibs.github.io/home/) for computer graphics software
- - ✏️ Writing [a C++ course](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/) with an emphasis on clean code
- - 👨‍🏫 Looking for a job as a *teacher* or *software engineer*
- - 👀 Looking for projects to contribute to or help get started
- - 🎬 Starting [a Youtube channel](https://www.youtube.com/channel/UCpeT3Q6j8TAGRjW71vMZGYw)
+
+- 👩‍💻 Developing [a C++ framework](https://coollibs.github.io/) for computer graphics software
+- ✏️ Writing [a C++ course](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/) with an emphasis on clean code
+- 👨‍🏫 Looking for a job as a _teacher_ or _software engineer_
+- 👀 Looking for projects to contribute to or help get started
+- 🎬 Starting [a Youtube channel](https://www.youtube.com/channel/UCpeT3Q6j8TAGRjW71vMZGYw)
 
 Interested in
- - 🖼️ Computer graphics
- - 🎨 Generative art
- - 📐 Mathematics
- - 🔨 Software architecture
+
+- 🖼️ Computer graphics
+- 🎨 Generative art
+- 📐 Mathematics
+- 🔨 Software architecture
 
 I love
- - 💖 Open Source
- - 🎁 Sharing knowledge
- - 🤗 Making people happy
- - 💃 Dancing
 
- Check out my [personal website](https://julesfouchy.github.io/home/)!
+- 💖 Open Source
+- 🎁 Sharing knowledge
+- 🤗 Making people happy
+- 💃 Dancing
 
- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=julesfouchy&show_icons=true)
+Check out my [personal website](https://julesfouchy.github.io/home/)!
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=julesfouchy&show_icons=true)
 
 ## My projects
 
@@ -82,4 +85,5 @@ I did a few template projects that can help you get started quickly:
 - [**Mathematics for Art and Computer Graphics**](https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics/) where I teach you the amazing mathematics that empower you to understand geometry, shapes and color and describe them programmatically
 
 ---
-*This ReadMe uses custom repo cards made by [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats)*
+
+_This ReadMe uses custom repo cards made by [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats)_
