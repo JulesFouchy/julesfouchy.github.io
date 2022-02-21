@@ -78,9 +78,9 @@ const config = async () => {
           },
           items: [
             {
-              to: last_doc("./docs/portfolio/"),
-              activeBaseRegex: "/portfolio/",
-              label: "Portfolio",
+              to: last_doc("./docs/projects/"),
+              activeBaseRegex: "/projects/",
+              label: "Projects",
               position: "left",
             },
             {
