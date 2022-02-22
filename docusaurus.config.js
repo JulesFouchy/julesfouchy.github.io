@@ -97,7 +97,6 @@ const config = async () => {
               label: "Miscellaneous",
               position: "left",
             },
-            { to: "/about", label: "About", position: "left" },
             {
               href: "https://github.com/JulesFouchy",
               position: "right",
