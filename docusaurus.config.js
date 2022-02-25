@@ -7,7 +7,8 @@ const fetch = require("node-fetch")
 
 const fs = require("fs")
 const path = require("path")
-const last_doc = (docs_folder) => {
+const last_doc = (folder_name) => {
+  const docs_folder = path.join("./docs/", folder_name)
   const files = fs
     .readdirSync(docs_folder)
     .filter((file_or_dir) =>
@@ -19,7 +20,7 @@ const last_doc = (docs_folder) => {
     file_without_extension.indexOf("-") + 1,
     file_without_extension.length
   )
-  return docs_folder.substring(1, docs_folder.length) + file_without_number
+  return path.join(folder_name, file_without_number)
 }
 
 /** @type {import('@docusaurus/types').Config} */
@@ -32,6 +33,7 @@ const config = async () => {
     tagline: "Hello 👋",
     url: "https://julesfouchy.github.io/",
     baseUrl: "/",
+    trailingSlash: false,
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "throw",
     favicon: "img/favicon.ico",
@@ -46,6 +48,7 @@ const config = async () => {
         /** @type {import('@docusaurus/preset-classic').Options} */
         ({
           docs: {
+            routeBasePath: "/",
             sidebarPath: require.resolve("./sidebars.js"),
             sidebarItemsGenerator: async function ({
               defaultSidebarItemsGenerator,
@@ -79,22 +82,22 @@ const config = async () => {
           },
           items: [
             {
-              to: last_doc("./docs/projects/"),
-              activeBaseRegex: "/projects/",
+              to: last_doc("projects"),
+              activeBaseRegex: "/projects",
               label: "Projects",
               position: "left",
             },
             {
-              to: last_doc("./docs/artworks/"),
-              activeBaseRegex: "/artworks/",
+              to: last_doc("artworks"),
+              activeBaseRegex: "/artworks",
               label: "Artworks",
               position: "left",
             },
             { to: "/resume", label: "Resume", position: "left" },
             { to: "/blog", label: "Blog", position: "left" },
             {
-              to: last_doc("./docs/miscellaneous/"),
-              activeBaseRegex: "/miscellaneous/",
+              to: last_doc("miscellaneous"),
+              activeBaseRegex: "/miscellaneous",
               label: "Miscellaneous",
               position: "left",
             },
