@@ -8,11 +8,11 @@ const fetch = require("node-fetch")
 const fs = require("fs")
 const path = require("path")
 const last_doc = (folder_name) => {
-  const docs_folder = path.join("./docs/", folder_name)
+  const content_folder = path.join("./content/", folder_name)
   const files = fs
-    .readdirSync(docs_folder)
+    .readdirSync(content_folder)
     .filter((file_or_dir) =>
-      fs.lstatSync(path.join(docs_folder, file_or_dir)).isFile()
+      fs.lstatSync(path.join(content_folder, file_or_dir)).isFile()
     )
   const file = files[files.length - 1]
   const file_without_extension = file.substring(0, file.indexOf("."))
@@ -49,6 +49,7 @@ const config = async () => {
         ({
           docs: {
             routeBasePath: "/",
+            path: "./content",
             sidebarPath: require.resolve("./sidebars.js"),
             sidebarItemsGenerator: async function ({
               defaultSidebarItemsGenerator,
