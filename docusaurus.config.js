@@ -31,12 +31,12 @@ const config = async () => {
     title: "Jules Fouchy",
     tagline: "Hello 👋",
     url: "https://julesfouchy.github.io/",
-    baseUrl: "/home/",
+    baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "throw",
     favicon: "img/favicon.ico",
     organizationName: "JulesFouchy",
-    projectName: "home",
+    projectName: "julesfouchy.github.io",
     plugins: ["@docusaurus/plugin-ideal-image"],
 
     presets: [
@@ -120,15 +120,15 @@ const config = async () => {
               items: [
                 {
                   label: "Ask a question",
-                  to: "https://github.com/JulesFouchy/home/issues",
+                  to: "https://github.com/JulesFouchy/julesfouchy.github.io/issues",
                 },
                 {
                   label: "Give me feedback",
-                  to: "https://github.com/JulesFouchy/home/issues",
+                  to: "https://github.com/JulesFouchy/julesfouchy.github.io/issues",
                 },
                 {
                   label: "Report a mistake",
-                  to: "https://github.com/JulesFouchy/home/issues",
+                  to: "https://github.com/JulesFouchy/julesfouchy.github.io/issues",
                 },
               ],
             },
