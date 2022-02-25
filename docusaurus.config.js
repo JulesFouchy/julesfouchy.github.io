@@ -37,6 +37,7 @@ const config = async () => {
     favicon: "img/favicon.ico",
     organizationName: "JulesFouchy",
     projectName: "julesfouchy.github.io",
+    deploymentBranch: "gh-pages",
     plugins: ["@docusaurus/plugin-ideal-image"],
 
     presets: [
