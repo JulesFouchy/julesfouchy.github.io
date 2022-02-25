@@ -40,7 +40,10 @@ const config = async () => {
     organizationName: "JulesFouchy",
     projectName: "julesfouchy.github.io",
     deploymentBranch: "gh-pages",
-    plugins: ["@docusaurus/plugin-ideal-image"],
+    plugins: [
+      "@docusaurus/plugin-ideal-image",
+      require.resolve("docusaurus-lunr-search"),
+    ],
 
     presets: [
       [
