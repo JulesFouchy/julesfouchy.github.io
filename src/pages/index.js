@@ -47,10 +47,6 @@ export default function Home() {
               with an emphasis on clean code
             </li>
             <li>
-              👨‍🏫 Looking for a job as a <i>teacher</i> or{" "}
-              <i>software engineer</i>
-            </li>
-            <li>
               👀 Looking for projects to contribute to or help get started
             </li>
             <li>
