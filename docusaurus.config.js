@@ -20,7 +20,9 @@ const last_doc = (folder_name) => {
     file_without_extension.indexOf("-") + 1,
     file_without_extension.length
   )
-  return path.join(folder_name, file_without_number)
+  let res = "/" + path.join(folder_name, file_without_number)
+  res = res.replace("\\", "/")
+  return res
 }
 
 /** @type {import('@docusaurus/types').Config} */
