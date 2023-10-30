@@ -1,0 +1,1 @@
+(self.webpackChunkjulesfouchy_github_io=self.webpackChunkjulesfouchy_github_io||[]).push([[760],{274:(u,s,e)=>{"use strict";e.d(s,{Z:()=>c});var h=e(1336);const c=h},5525:()=>{}}]);
