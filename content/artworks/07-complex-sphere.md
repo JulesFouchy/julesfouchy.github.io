@@ -4,7 +4,7 @@ title: Complex Sphere
 
 import YoutubeVideo from '/src/components/YoutubeVideo';
 
-<YoutubeVideo url="https://www.youtube.com/embed/mCS6Ye1YN5Y"/>
+<YoutubeVideo url="mCS6Ye1YN5Y"/>
 
 _A single fragment shader ([available here](https://pastebin.com/29tUCsef)), rendered using [CoolLab](https://coollibs.github.io/lab/)_.
 

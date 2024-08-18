@@ -1,8 +1,9 @@
 ---
 title: The flight of Icarus
 ---
+
 import YoutubeVideo from '/src/components/YoutubeVideo';
 
-<YoutubeVideo url="https://www.youtube.com/embed/rdOoUp8uztU"/>
+<YoutubeVideo url="rdOoUp8uztU"/>
 
-*Made with [Processing](https://processing.org/)*
+_Made with [Processing](https://processing.org/)_

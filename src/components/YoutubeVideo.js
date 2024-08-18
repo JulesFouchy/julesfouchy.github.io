@@ -5,11 +5,12 @@ export default function YoutubeVideo({ url }) {
   return (
     <div className={styles.video}>
       <iframe
-        src={url}
+        src={`https://www.youtube.com/embed/${url}`}
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen=""
+        referrerpolicy="strict-origin-when-cross-origin"
       ></iframe>
     </div>
   )
