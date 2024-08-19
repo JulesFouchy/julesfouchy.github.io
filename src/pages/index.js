@@ -24,40 +24,18 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <div className={styles.centered}>
-          Hi! 👋 I am a software engineer, teacher and curious mind.
+          Hi! 👋 I am a software engineer, teacher and curious mind
           <br />
           <br />
           <b>Currently:</b>
           <ul>
             <li>
-              👩‍💻 Developing a{" "}
-              <a href="https://coollibs.github.io/" target="_blank">
-                C++ framework
-              </a>{" "}
-              for computer graphics software
+              👩‍💻 Developing Coollab, a node-based software to create visual
+              effects and generative-art, similar to TouchDesigner
+              <br />
+              <a href="https://youtu.be/jsjkjCQCPno">Check out the trailer !</a>
             </li>
-            <li>
-              ✏️ Writing a{" "}
-              <a
-                href="https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/"
-                target="_blank"
-              >
-                C++ course
-              </a>{" "}
-              with an emphasis on clean code
-            </li>
-            <li>
-              👀 Looking for projects to contribute to or help get started
-            </li>
-            <li>
-              🎬 Starting a{" "}
-              <a
-                href="https://www.youtube.com/channel/UCpeT3Q6j8TAGRjW71vMZGYw"
-                target="_blank"
-              >
-                Youtube channel
-              </a>
-            </li>
+            <li>🤖 Learning Godot</li>
           </ul>
           <b>Interested in:</b>
           <ul>

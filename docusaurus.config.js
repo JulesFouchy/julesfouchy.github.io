@@ -32,7 +32,7 @@ const config = async () => {
   ).then((res) => res.json())
   return {
     title: "Jules Fouchy",
-    tagline: "Hello 👋",
+    tagline: "Graphics Programmer 👋",
     url: "https://julesfouchy.github.io/",
     baseUrl: "/",
     trailingSlash: false,
@@ -100,7 +100,7 @@ const config = async () => {
               position: "left",
             },
             { to: "/resume", label: "Resume", position: "left" },
-            { to: "/blog", label: "Blog", position: "left" },
+            // { to: "/blog", label: "Blog", position: "left" },
             {
               to: last_doc("miscellaneous"),
               activeBaseRegex: "/miscellaneous",
@@ -153,10 +153,10 @@ const config = async () => {
                   label: "GitHub",
                   to: "https://github.com/JulesFouchy",
                 },
-                {
-                  label: "Blog",
-                  to: "/blog",
-                },
+                // {
+                //   label: "Blog",
+                //   to: "/blog",
+                // },
               ],
             },
           ],
