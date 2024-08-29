@@ -33,7 +33,7 @@ export default function Home() {
               👩‍💻 Developing Coollab, a node-based software to create visual
               effects and generative-art, similar to TouchDesigner
               <br />
-              <a href="https://youtu.be/jsjkjCQCPno">Check out the trailer !</a>
+              <a href="https://youtu.be/jsjkjCQCPno">Check out the trailer!</a>
             </li>
             <li>🤖 Learning Godot</li>
           </ul>
