@@ -87,6 +87,7 @@ const config = async () => {
             src: "img/favicon-32x32.png",
           },
           items: [
+            { to: "/i-did-that", label: "I did that", position: "left" },
             {
               to: last_doc("projects"),
               activeBaseRegex: "/projects",
