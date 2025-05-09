@@ -43,6 +43,8 @@ With Marie Guillot, Posly, Akarode, August, Frantcho
 
 I did a 1 hour talk about shader art for the [ENJMIN Game Conference](https://enjmin.cnam.fr/enjmin-game-conferences/enjmin-game-conferences-1111200.kjsp) in Angoulême<br/>
 
+Giving a talk is so nice because afterwards people just come to talk to you about your talk, i.e. subjects you love. I met a ton a very nice people (and promoted Coollab 😇)
+
 [Some resources](https://github.com/JulesFouchy/Faire-de-l-art-avec-des-maths), and my slides (press <kbd>SPACE</kbd> to go to the next slide):<br/>
 <IFrame url="https://julesfouchy.github.io/Faire-de-l-art-avec-des-maths/"/>
 
@@ -137,14 +139,12 @@ https://www.instagram.com/p/C8e5Sg1Kaqk/<br/>
 
 ## 🎮 Organizing our own Game Jam (MeucheJam) (2024 June 07-09)
 
-import MeucheJamImage from './img/meuchejam.png';
-
 We organized and live streamed our own game jam, because it's fun.<br/>
 We also participated and made the prototype for *Word It!*
 
 https://jam.meucheroume.fr/
 
-<img src={MeucheJamImage} style={{ height: '700px', width: 'auto' }} />
+<img src="/img/i_did_that/meuchejam.png" style={{ height: '700px', width: 'auto' }} />
 
 ## 👩‍🏫 Libre Graphics Meeting, Rennes (2024 May 09-12)
 
@@ -155,13 +155,11 @@ https://libregraphicsmeeting.org/2024/
 
 ## 👩‍🏫 Journée d'étude sur le live coding (2024 April 23)
 
-import JourneeLivecodingImage from './img/journee_live_coding.png';
-
 Just went there to see some talks. It was more music-oriented which is not really what I am into, but this is where I discovered the existence of the Libre Graphics Meeting, thanks to a small link at the bottom of a huge presentation slide by Raphaël Bastide. Moral: always go and see stuff, you might be surprised.
 
 https://livecoding.fr/articles/journee
 
-<img src={JourneeLivecodingImage} style={{ height: '750px', width: 'auto' }} />
+<img src="/img/i_did_that/journee_live_coding.png" style={{ height: '750px', width: 'auto' }} />
 
 ## 🎊 Lille VJ Fest (2024 April 11-13)
 
