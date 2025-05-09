@@ -25,22 +25,23 @@ I took three interns this summer:
 
 [Animeet](https://linktr.ee/animeet.fr)<br/>
 We made a short animation movie in two days. I did the sky in [Coollab](https://coollab-art.com/), the planets, the movement of the ship and the color change animation in Godot.
+
+With Poulpillow and Talia'Kah
 <YoutubeVideo url = "b00Np7oSVOY"/>
 
 ## 🎮 Game Jam des étoiles (POV Meteor) (2025 April 04-06)
-
-With Marie Guillot etc TODO
 
 We made a game that was played on a huge dome at the planetarium of [La Cité des Sciences](https://www.cite-sciences.fr/fr/accueil). The biggest challenge was to find a way for all the public to play at the same time. We made a voting system from your phone, were everybody could vote on where the asteroid would go.
 
 [Download the game](https://github.com/JulesFouchy/POV_Meteore/raw/refs/heads/main/Builds/final3bis%202K.zip?download=)<br/>
 https://www.cite-sciences.fr/fr/au-programme/activites-spectacles/le-planetarium/game-jam-des-etoiles
 
+With Marie Guillot, Posly, Akarode, August, Frantcho
 <YoutubeVideo url = "Vkpi0ViUFbU?start=200"/>
 
 ## 👩‍🏫 ENJMIN Game Conference (2025 February 26-28)
 
-I did a talk about shader art for the [ENJMIN Game Conference](https://enjmin.cnam.fr/enjmin-game-conferences/enjmin-game-conferences-1111200.kjsp) in Angoulême<br/>
+I did a 1 hour talk about shader art for the [ENJMIN Game Conference](https://enjmin.cnam.fr/enjmin-game-conferences/enjmin-game-conferences-1111200.kjsp) in Angoulême<br/>
 
 [Some resources](https://github.com/JulesFouchy/Faire-de-l-art-avec-des-maths), and my slides (press <kbd>SPACE</kbd> to go to the next slide):<br/>
 <IFrame url="https://julesfouchy.github.io/Faire-de-l-art-avec-des-maths/"/>
@@ -49,7 +50,7 @@ I did a talk about shader art for the [ENJMIN Game Conference](https://enjmin.cn
 
 ## 🥳 Coollab 1.0 Release (2025 February 25)
 
-I finally released the 1.0 version of [Coollab](https://coollab-art.com/)! After 4.5 years of development, with the release of the Launcher I think the software is finally stable enough to go out of the beta phase. (And also I'm starting to have a few users, so I can't break everything all the time anymore).
+I finally released the 1.0 version of [Coollab](https://coollab-art.com/)! After 4.5 years of development, with the release of the Launcher I think the software is finally stable enough to go out of the beta phase. (And also I'm starting to have a few users, so I can't break everything all the time anymore 🙄)
 
 ![](./img/Coollab%20V1.png)
 
@@ -57,9 +58,10 @@ I finally released the 1.0 version of [Coollab](https://coollab-art.com/)! After
 
 A platformer almost entirely in the dark (because we didn't want to have to find assets to decorate the level 😇)
 
-With [Meucheroume](TODO)
 
 [Download the game](https://meucheroume.itch.io/platformeuche)
+
+With MeucheRoume
 <YoutubeVideo url = "sS-Hwup0DFA"/>
 
 <!-- ## 😴 Started a regular sleep schedule (2025 February 13)
@@ -68,18 +70,23 @@ As of writing this (3 months later) I'm still holding on to it and I really like
 
 <YoutubeVideo url = "ZKNQ6gsW45M"/> -->
 
-<!-- ## Word It! release (2025 January 02)
+## 📽 48-Hour Short Film Challenge (Histoires de Sorcières) (2025 January 17-19)
 
-After X months, started during
+I did the credit sequence (with [Coollab](https://coollab-art.com/)) in this short movie made by two friends (MeucheRoume and Talia'Kah)
 
-With [Meucheroume](TODO) We wanted to try make a small mobile game and see if we could make some money off of it. -->
+<YoutubeVideo url = "JyoaZSxrji4?start=144"/>
 
-<!-- TODO gameplay video of latest word it -->
+## 🥳 Word It! release (2025 January 02)
 
-<!-- [Download it on Google Play Store](https://play.google.com/store/apps/details?id=com.meuchecorp.wordit)
+After 7 months of development, we released our first mobile game!
 
-![](/img/word_it.gif)
+With MeucheRoume we wanted to try make a small mobile game and see if we could make some money off of it. We didn't, but it was fun doing my first project with Godot! I really really love this engine, definitely the best for 2D games.
 
+[Download it on the Play Store](https://play.google.com/store/apps/details?id=com.meuchecorp.wordit)
+
+<iframe width="401" height="712" src="https://www.youtube.com/embed/lLnY5TpJuUo" title="[Word It!] Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- 
 ## Workshops chataigne ?
 
 ## Prez coollab ptut à la cité des sciences (et ptut en général) -->
@@ -87,6 +94,12 @@ With [Meucheroume](TODO) We wanted to try make a small mobile game and see if we
 <!-- ## Début club débat -->
 
 <!-- ## Read Thinking fast and slow (2024 December 25) -->
+
+## 👩‍🏫 Coollab workshop for middle school students in Bordeaux (Collège Georges Lapierre) (2024 November 06)
+
+I was invited by a friend who works there (Océane). It was nice to work with young people (13-14 years old), they really enjoyed the images we could make easily with Coollab and all the fun effects.
+
+![](./img/college_bordeau.png)
 
 ## 👩‍🏫 Volunteer at OggCamp (2024 October 12-13)
 
@@ -96,17 +109,17 @@ https://oggcamp.org/
 
 ![](./img/oggcamp%202024.png)
 
-## 📽 48h du court-métrage (Histoires de Sorcières) (2025 January 17-19)
+## 🎊 Festijam (2024 September 14)
 
-I did the credit sequence (with [Coollab](https://coollab-art.com/)) in this short movie made by two friends ([Meucheroume](TODO) and [Talia'Kah](TODO))
+The Festijam is a small independent festival, entirely run by volunteers. I was contacted by Rémi to do a video installation where the public could change some parameters from a small touch screen on the side and see the result live on the screen behind the musicians.
+<YoutubeVideo url = "m5ies_OsDD4?start=144"/>
 
-<YoutubeVideo url = "JyoaZSxrji4?start=144"/>
 
 <!-- ## Read Mindful Design -->
 
 ## 👩‍🏫 Summer Internships (2024 July - August)
 
-I took five interns for this summer, for small internships because I didn't have money to pay them this year:
+I took five interns for this summer, for small internships because I didn't have money to pay them this year unfortunately:
 
 **Max** (Launcher, Webcam on MacOS)<br/>
 **Agathe** (Short tutorial videos, Webcam on Windows)<br/>
@@ -122,6 +135,17 @@ Did a workshop for Creative Code Lab, a meetup about creative coding. I showed t
 https://www.instagram.com/p/C8e5Sg1Kaqk/<br/>
 ![](./img/workshop%20shader%20CCL.png)
 
+## 🎮 Organizing our own Game Jam (MeucheJam) (2024 June 07-09)
+
+import MeucheJamImage from './img/meuchejam.png';
+
+We organized and live streamed our own game jam, because it's fun.<br/>
+We also participated and made the prototype for *Word It!*
+
+https://jam.meucheroume.fr/
+
+<img src={MeucheJamImage} style={{ height: '700px', width: 'auto' }} />
+
 ## 👩‍🏫 Libre Graphics Meeting, Rennes (2024 May 09-12)
 
 A very nice conference for open-source software related to graphics. I presented Coollab during a lightning talk, and met developers of Gimp and Inkscape. Thank you Gimp Foundation for inviting us to the restaurant!
@@ -131,32 +155,23 @@ https://libregraphicsmeeting.org/2024/
 
 ## 👩‍🏫 Journée d'étude sur le live coding (2024 April 23)
 
-Just went there to see some talks. It was more music-oriented which is not really what I am into, but this is where I discovered the existence of the Libre Graphics Meeting, thnaks to a small link at the bottom of a huge presentation slide by Raphaël Bastide. Morale: always go and see stuff, you might be surprised.
+import JourneeLivecodingImage from './img/journee_live_coding.png';
+
+Just went there to see some talks. It was more music-oriented which is not really what I am into, but this is where I discovered the existence of the Libre Graphics Meeting, thanks to a small link at the bottom of a huge presentation slide by Raphaël Bastide. Moral: always go and see stuff, you might be surprised.
 
 https://livecoding.fr/articles/journee
 
-![](./img/journée%20live%20coding.png)
+<img src={JourneeLivecodingImage} style={{ height: '750px', width: 'auto' }} />
 
-<!-- <img src="/img/journée%20live%20coding.png" alt="Live coding" width="300" /> -->
+## 🎊 Lille VJ Fest (2024 April 11-13)
 
-## 👩‍🏫 Cours Coollab collège Bordeaux (2024 November 06)
-
-
-## Festijam (2024 September 14)
-
-Did video installation, where public could change parameters and see the result live behind the musicians.
-
-<YoutubeVideo url = "m5ies_OsDD4"/>
-
-<!-- ## Lille VJ Fest (2024 April 11-13)
-
-I did not participate, but met a ton of amazing people and saw amazing shows. Etidou, Jane, BrHume, Lu7
+I did not participate, but met a ton of amazing people and saw amazing shows. Etidou, Jane, BrHume, Lu7<br/>
+I need to participate next year!
 
 https://www.instagram.com/p/DIvqczLM92I/
+<YoutubeVideo url = "nBU4WpDwIRI"/>
 
-<YoutubeVideo url = "nBU4WpDwIRI"/> -->
-
-## VJing at WEI IMAC (2023 September 23)
+## 🎊 VJing at WEI IMAC (2023 September 23)
 
 VJing for a party at my school, made with [Coollab](https://coollab-art.com/)
 
@@ -167,12 +182,15 @@ VJing for a party at my school, made with [Coollab](https://coollab-art.com/)
 On https://www.twitch.tv/meucheroume
 It's a lot of fun, we just talk about everything (prog, math, science, life philosophy, tons of debates, etc.) -->
 
-<!-- ## 2023 Berlin meetup
+## 👩‍🏫 Creative Code Berlin (2023 July 05-17)
 
-When to Stammtisch, presented Coollab. Met some people. They told me about vvvv meetup, and touchdesigner meetup.
-Also went to Jam.
-Berlin is a very nice city, full of gardens and greenery, enjoyed balades there.
+I went to Berlin to join the Stammtisch, where I presented Coollab and met some very nice people. They told me about a vvvv meetup so I went there. I discovered vvvv which is a very nice software, met some nice people again. They told me about the TouchDesigner meetup so I went there. I really love Berlin, there are so many creative-coding events! Also the city is very nice, full of gardens and greenery! I really enjoyed wandering around the streets there.
 
+I also went to the Jam and implemented a nice effect that someone showed during the Stammtisch (slit-scan).
+
+![](./img/creative_code_berlin.avif)
+
+<!-- 
 ## Interns (2023 June)
 
 Théo Couard (Tutorials)

@@ -30,12 +30,15 @@ export default function Home() {
           <b>Currently:</b>
           <ul>
             <li>
-              👩‍💻 Developing Coollab, a node-based software to create visual
-              effects and generative-art, similar to TouchDesigner
+              👩‍💻 Developing <a href="https://coollab-art.com/">Coollab</a>, a
+              node-based software to create visual effects and generative-art,
+              similar to TouchDesigner
               <br />
               <a href="https://youtu.be/jsjkjCQCPno">Check out the trailer!</a>
             </li>
-            <li>🤖 Learning Godot</li>
+            <li>
+              🤖 Learning <a href="https://godotengine.org/">Godot</a>
+            </li>
           </ul>
           <b>Interested in:</b>
           <ul>
