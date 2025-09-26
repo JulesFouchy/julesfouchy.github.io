@@ -3,13 +3,14 @@ title: I did that
 ---
 import IFrame from '/src/components/IFrame';
 import YoutubeVideo from '/src/components/YoutubeVideo';
+import ImageZoom from '/src/components/ImageZoom';
 
 <!-- ## Lille VJ Fest (2025 May 15-17)
 
 Anecdote : j'ai pas candidaté assez tôt, ils ont fermé les inscriptions. Puis j'ai envoyé un mail pour forcer et j'ai quand même pû y aller grâce à des désistetements.
 Morale / Note to myself: 
 - Pas remettre les choses au lendemain
-- Faut avoir du culot parfois et tenter / forcer -->
+- Faut avoir du culot parfois et tenter / forcer
 
 ## 👩‍🏫 Summer Internships (2025 May 05 - August 01)
 
@@ -54,7 +55,7 @@ Giving a talk is so nice because afterwards people just come to talk to you abou
 
 I finally released the 1.0 version of [Coollab](https://coollab-art.com/)! After 4.5 years of development, with the release of the Launcher I think the software is finally stable enough to go out of the beta phase. (And also I'm starting to have a few users, so I can't break everything all the time anymore 🙄)
 
-![](./img/Coollab%20V1.png)
+<ImageZoom src="/img/i_did_that/Coollab%20V1.png"/>
 
 ## 🎮 Game Jam DS (Platformeuche) (2025 February 14-16)
 
@@ -101,15 +102,14 @@ With MeucheRoume we wanted to try make a small mobile game and see if we could m
 
 I was invited by a friend who works there (Océane). It was nice to work with young people (13-14 years old), they really enjoyed the images we could make easily with Coollab and all the fun effects.
 
-![](./img/college_bordeau.png)
+<ImageZoom src="/img/i_did_that/college_bordeau.png"/>
 
 ## 👩‍🏫 Volunteer at OggCamp (2024 October 12-13)
 
 I went to this open-source conference, and decided to volunteer so I would more easily meet some people. I ended up helping speakers setup their computer in the main room, and asking for questions at the end and handing out the microphone
 
 https://oggcamp.org/
-
-![](./img/oggcamp%202024.png)
+<ImageZoom src="/img/i_did_that/oggcamp%202024.png"/>
 
 ## 🎊 Festijam (2024 September 14)
 
@@ -135,7 +135,7 @@ Did a workshop for Creative Code Lab, a meetup about creative coding. I showed t
 [The tutorial](https://github.com/CreativeCodeParis/Workshop/tree/main/GLSL3D)
 
 https://www.instagram.com/p/C8e5Sg1Kaqk/<br/>
-![](./img/workshop%20shader%20CCL.png)
+<ImageZoom src="/img/i_did_that/workshop%20shader%20CCL.png"/>
 
 ## 🎮 Organizing our own Game Jam (MeucheJam) (2024 June 07-09)
 
@@ -144,14 +144,14 @@ We also participated and made the prototype for *Word It!*
 
 https://jam.meucheroume.fr/
 
-<img src="/img/i_did_that/meuchejam.png" style={{ height: '700px', width: 'auto' }} />
+<ImageZoom src="/img/i_did_that/meuchejam.png" style={{ height: '700px', width: 'auto' }} />
 
 ## 👩‍🏫 Libre Graphics Meeting, Rennes (2024 May 09-12)
 
 A very nice conference for open-source software related to graphics. I presented Coollab during a lightning talk, and met developers of Gimp and Inkscape. Thank you Gimp Foundation for inviting us to the restaurant!
 
 https://libregraphicsmeeting.org/2024/
-![](./img/LGM%20Rennes.png)
+<ImageZoom src="/img/i_did_that/LGM%20Rennes.png"/>
 
 ## 👩‍🏫 Journée d'étude sur le live coding (2024 April 23)
 
@@ -159,7 +159,7 @@ Just went there to see some talks. It was more music-oriented which is not reall
 
 https://livecoding.fr/articles/journee
 
-<img src="/img/i_did_that/journee_live_coding.png" style={{ height: '750px', width: 'auto' }} />
+<ImageZoom src="/img/i_did_that/journee_live_coding.png" style={{ height: '750px', width: 'auto' }} />
 
 ## 🎊 Lille VJ Fest (2024 April 11-13)
 
@@ -186,7 +186,7 @@ I went to Berlin to join the Stammtisch, where I presented Coollab and met some 
 
 I also went to the Jam and implemented a nice effect that someone showed during the Stammtisch (slit-scan).
 
-![](./img/creative_code_berlin.avif)
+<ImageZoom src="/img/i_did_that/creative_code_berlin.avif"/>
 
 <!-- 
 ## Interns (2023 June)
