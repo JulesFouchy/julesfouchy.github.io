@@ -46,10 +46,15 @@ I did a 1 hour talk about shader art for the [ENJMIN Game Conference](https://en
 
 Giving a talk is so nice because afterwards people just come to talk to you about your talk, i.e. subjects you love. I met a ton a very nice people (and promoted Coollab 😇)
 
+<YoutubeVideo url="3ZUsnGyC4NE"/>
+<br/>
+
 [Some resources](https://github.com/JulesFouchy/Faire-de-l-art-avec-des-maths), and my slides (press <kbd>SPACE</kbd> to go to the next slide):<br/>
 <IFrame url="https://julesfouchy.github.io/Faire-de-l-art-avec-des-maths/"/>
+<br/>
 
-<!-- TODO -->
+And a small interview I gave for the conference:
+<YoutubeVideo url="Im064SnzIh4"/>
 
 ## 🥳 Coollab 1.0 Release (2025 February 25)
 
