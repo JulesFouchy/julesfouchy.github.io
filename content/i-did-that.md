@@ -6,6 +6,56 @@ import IFrame from '/src/components/IFrame';
 import YoutubeVideo from '/src/components/YoutubeVideo';
 import ImageZoom from '/src/components/ImageZoom';
 
+### Summer interns: Léo, Killian, Guillaume, Benoît
+
+*2026 June-August*
+
+It was the first time I had a 16 years old intern, for an observation internship of two weeks.
+
+### Workshop Coollab at TouchDesigner meetup
+
+*Paris, 2026 May 27*
+
+Second official Coollab workshop!
+
+<ImageZoom src="/img/i_did_that/workshop-coollab-touch.jpg"/>
+
+### BYOB Machine Sauvage
+
+*Lille, 2026 May 07*
+
+Met quite a few interesting people, including a VJ from Kosovo!
+
+<ImageZoom src="/img/i_did_that/byob_2026.png" style={{ height: '700px', width: 'auto' }}/>
+
+### Libre Graphics Meeting
+
+*Nurnberg, 2026 April 22-25*
+
+<ImageZoom src="/img/i_did_that/lgm-group-photo-2026.webp"/>
+
+3rd time going to LGM, 1st time giving a talk and workshop! Also met people from Ossia and TiXL! And brought Benoît with me!
+
+https://libregraphicsmeeting.org/2026/
+
+<iframe width="922" height="518" src="https://media.ccc.de/v/lgm-2026-110661-exploring-modern-ui-frameworks/oembed" frameborder="0" allowfullscreen></iframe>
+
+### Coollab party at Communale Saint-Ouen
+
+*Saint-Ouen, 2026 April 08*
+
+Small party to test out some features of Coollab v2!
+
+<YoutubeVideo url = "_6oglGa65BE"/>
+
+### Videomapping Ferme du Buisson
+
+*Noisiel, 2025 November 15-16*
+
+With Fiona and Anaïs
+
+<YoutubeVideo url = "vNfchtz21Rc"/>
+
 ### Peckham Digital
 
 *London, 2025 October 17*
